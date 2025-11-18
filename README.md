@@ -3,10 +3,9 @@
 
 <p align="center">
   <img width="960" height="540" alt="Tree_Pointcloud Figures" src="https://github.com/user-attachments/assets/6165c7de-d0e6-41ff-a13e-d0ab43098838" />
+</p>
   ![insseg_prediction](https://github.com/user-attachments/assets/5d0f8f22-31b4-4996-ad9a-0fb9cbf856f5)
   ![semseg_prediction](https://github.com/user-attachments/assets/081d7eab-dbbc-45e7-a1b3-7e2f11988a89)
-</p>
-
 ---
 
 ## 📄 Paper  
