@@ -1,8 +1,47 @@
-# TreeLite3D
-3D tree segmentation and classification with minimal labels from LiDAR point clouds
+# 🌲 **TreeLite3D**  
+### *3D tree segmentation and classification with minimal labels from LiDAR point clouds*
 
-<img width="960" height="540" alt="Tree_Pointcloud Figures" src="https://github.com/user-attachments/assets/6165c7de-d0e6-41ff-a13e-d0ab43098838" />
+<p align="center">
+  <img width="960" height="540" alt="Tree_Pointcloud Figures" src="https://github.com/user-attachments/assets/6165c7de-d0e6-41ff-a13e-d0ab43098838" />
+  ![insseg_prediction](https://github.com/user-attachments/assets/5d0f8f22-31b4-4996-ad9a-0fb9cbf856f5)
+  ![semseg_prediction](https://github.com/user-attachments/assets/081d7eab-dbbc-45e7-a1b3-7e2f11988a89)
+</p>
 
-In this work, we leverage machine learning techniques to pretrain deep learning models for multiple downstream tasks in forestry, including instance segmentation, semantic segmentation, and tree classification. For instance segmentation, we combine self-supervised learning on unlabeled data with domain adaptation to improve performance across different forest environments. Semantic segmentation is performed independently using self-supervised learning, allowing the model to capture structural patterns without requiring extensive labeled data. Tree classification benefits from a coarse-to-fine pretraining strategy, which is particularly effective for distinguishing species-level differences. To support reproducibility and further research, all pretrained models developed in this study will be made publicly available upon publication.
+---
 
-We aim to fine-tune these pretrained models in few-shot learning scenarios, where only a limited number of labeled samples are available. Comparing fine-tuning from pretrained weights with training from scratch, we observe that leveraging pretrained models consistently boosts performance across all tasks, enabling efficient adaptation with minimal annotation effort.
+## 📄 Paper  
+📘 **Label-Efficient 3D Forest Mapping: Self-Supervised and Transfer Learning for Individual, Structural, and Species Analysis**  
+🔗 *Read the paper on arXiv:* https://arxiv.org/abs/2511.06331
+
+---
+
+## 🚀 Overview  
+**TreeLite3D** explores how self-supervised and transfer learning can drastically reduce annotation requirements for 3D forest mapping. We develop and evaluate pretrained models for three major tasks:
+
+### 🌳 Instance Segmentation  
+Self-supervised learning on unlabeled point clouds combined with domain adaptation to improve generalization across forest types.
+
+### 🌲 Semantic Segmentation  
+Independent self-supervised pretraining to capture structural patterns without dense manual labels.
+
+### 🌿 Tree Classification  
+A hierarchical coarse-to-fine strategy enabling robust species-level classification, even with limited labeled data.
+
+---
+
+## 🎯 Few-Shot Learning Results  
+Our experiments show that fine-tuning pretrained models:
+
+- Provides strong gains over training from scratch  
+- Improves stability in low-label regimes  
+- Enhances transfer to unseen species and environments  
+- Reduces training compute and carbon emissions  
+
+These results highlight a practical path toward **label-efficient, scalable 3D forest analysis**.
+
+---
+
+## 📢 Code Availability  
+🔧 **The full codebase and pretrained models will be released upon publication.**
+
+Stay tuned!
