@@ -14,4 +14,4 @@ outputs/
 */.DS_Store
 **/*.out
 Dockerfile
-_SLURM
+_SLURM/
