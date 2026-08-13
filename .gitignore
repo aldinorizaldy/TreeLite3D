@@ -4,9 +4,7 @@ __pycache__
 **/*.egg-info/
 **/dist/
 *.so
-exp
 weights
-data
 log
 outputs/
 .vscode
