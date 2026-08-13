@@ -65,10 +65,14 @@ Custom data: Simply prepare your data similar to the sample data
 ## Inference and Training (if necessary)
 Inference is straightforward:
 
-```sh scripts/test.sh -g 1 -p python -d trees -c TREE-UNIFIED-insseg-pointgroup-v1m1-0-spunet-base -n TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base -w model_best```
+```
+sh scripts/test.sh -g 1 -p python -d trees -c TREE-UNIFIED-insseg-pointgroup-v1m1-0-spunet-base -n TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base -w model_best
+```
 
 If necessary and to improve the segmentation results, simply label a few points per tree on your custom data and prepare it as pth files similar to the sample data. Put your training data in `data/trees_UNIFIED/train` then train:
 
-```sh scripts/train.sh -g 4 -d trees -c TREE-UNIFIED-insseg-pointgroup-v1m1-0-spunet-base -n TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base```
+```
+sh scripts/train.sh -g 4 -d trees -c TREE-UNIFIED-insseg-pointgroup-v1m1-0-spunet-base -n TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base
+```
 
 Note that I used 4 A100 GPUs. Configure the batch size in config file accordingly depending on your GPUs.
