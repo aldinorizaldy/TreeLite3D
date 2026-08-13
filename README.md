@@ -42,14 +42,21 @@ These results highlight a practical path toward **label-efficient, scalable 3D f
 ---
 
 
-## Pretrained Models
+## Pretrained Models and Sample Data
 🔧 **Download the pretrained models and test with your data**
 
 Download from [here](https://drive.google.com/drive/folders/12IYq9gx-p1BQntIBxKyNLWlb47LIeM3A?usp=drive_link) and put them in this directory: `exp/trees/TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base`.
 
 A sample data is also provided [here](https://drive.google.com/drive/folders/1O1MdVK4Gr579nCj6p3TmEg4XyD-dIKWu?usp=sharing). Put it in this directory: `data/trees_UNIFIED/test`
 
+Instance and semantic segmentation results of a sample data:
+
+<img width="50%" height="50%" alt="instance_result" src="https://github.com/user-attachments/assets/55a8cf99-1e27-4c15-b548-e707c43b4189" />
+<img width="50%" height="50%" alt="semantic_result" src="https://github.com/user-attachments/assets/bdea1113-5a2f-4384-abc7-1b8142076449" />
+
+
 Custom data: Simply prepare your data similar to the sample data
 
+-- 
 ## Installation
 🔧 Docker installation is recommended for a clean installation. TreeLite3D is built using Pointcept 1.5.0. Install Pointcept 1.5.0 using docker from [here](https://hub.docker.com/layers/pointcept/pointcept/v1.5.0-pytorch1.11.0-cuda11.3-cudnn8-devel/images/sha256-8bdaf256670ec7e2f1a3472769ca9c97a1cb2b099f632ec20bf6050c21feb823)
