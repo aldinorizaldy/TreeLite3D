@@ -60,3 +60,13 @@ Custom data: Simply prepare your data similar to the sample data
 -- 
 ## Installation
 🔧 Docker installation is recommended for a clean installation. TreeLite3D is built using Pointcept 1.5.0. Install Pointcept 1.5.0 using docker from [here](https://hub.docker.com/layers/pointcept/pointcept/v1.5.0-pytorch1.11.0-cuda11.3-cudnn8-devel/images/sha256-8bdaf256670ec7e2f1a3472769ca9c97a1cb2b099f632ec20bf6050c21feb823)
+
+--
+## Inference and Training (if necessary)
+Inference is straightforward:
+
+`sh scripts/test.sh -g 1 -p python -d trees -c TREE-UNIFIED-insseg-pointgroup-v1m1-0-spunet-base -n TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base -w model_best`
+
+If necessary and to improve the segmentation results, simply label a few points per tree on your custom data and prepare it as pth files similar to the sample data. Put your training data in `data/trees_UNIFIED/train` then train:
+
+`sh scripts/train.sh -g 4 -d trees -c TREE-UNIFIED-insseg-pointgroup-v1m1-0-spunet-base -n TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base`. Note that I used 4 A100 GPUs. Configure the batch size in config file accordingly depending on your GPUs.
