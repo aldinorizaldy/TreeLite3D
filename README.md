@@ -2,7 +2,7 @@
 ### *3D tree segmentation and classification with minimal labels from LiDAR point clouds*
 
 <p align="center">
-  <img width="3000" height="1687" alt="Overview" src="https://github.com/user-attachments/assets/ec6a3347-49ca-4a6a-9f32-2a7b658279ba" />
+  <img width="1500" height="843.5" alt="Overview" src="https://github.com/user-attachments/assets/ec6a3347-49ca-4a6a-9f32-2a7b658279ba" />
   <img width="480" height="270" alt="Tree_Pointcloud Figures" src="https://github.com/user-attachments/assets/74d94f6b-ba51-4c55-8243-2d17a62a8eaa" />
   <img width="480" height="270" alt="Tree_Pointcloud Figures" src="https://github.com/user-attachments/assets/42c27143-c0d3-484d-bd0b-1bcc088a3d28" />
 </p>
