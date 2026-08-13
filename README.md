@@ -45,3 +45,9 @@ These results highlight a practical path toward **label-efficient, scalable 3D f
 🔧 **The full codebase and pretrained models will be released upon publication.**
 
 Stay tuned!
+
+## Pretrained Models
+🔧 **Download the pretrained models and test with your data.**
+Download from [here](https://drive.google.com/drive/folders/12IYq9gx-p1BQntIBxKyNLWlb47LIeM3A?usp=drive_link). Put the models in the 'exp/trees/TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base'.
+
+A sample data is also provided [here]() 
