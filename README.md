@@ -10,8 +10,8 @@
 ---
 
 ## 📄 Paper  
-📘 **Label-Efficient 3D Forest Mapping: Self-Supervised and Transfer Learning for Individual, Structural, and Species Analysis**  
-🔗 *Read the paper on arXiv:* https://arxiv.org/abs/2511.06331
+📘 **Label-efficient 3D Forest Mapping: Self-Supervised and Transfer Learning for Instance Segmentation, Semantic Segmentation, and Species Classification**  
+🔗 *Read the paper on Remote Sensing of Environment:* https://doi.org/10.1016/j.rse.2026.115564
 
 ---
 
@@ -41,13 +41,9 @@ These results highlight a practical path toward **label-efficient, scalable 3D f
 
 ---
 
-## 📢 Code Availability  
-🔧 **The full codebase and pretrained models will be released upon publication.**
-
-Stay tuned!
 
 ## Pretrained Models
 🔧 **Download the pretrained models and test with your data.**
-Download from [here](https://drive.google.com/drive/folders/12IYq9gx-p1BQntIBxKyNLWlb47LIeM3A?usp=drive_link). Put the models in the 'exp/trees/TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base'.
+Download from [here](https://drive.google.com/drive/folders/12IYq9gx-p1BQntIBxKyNLWlb47LIeM3A?usp=drive_link). Put the models in the `exp/trees/TREE-UNIFIED_trees_insseg-pointgroup-v1m1-0-spunet-base`.
 
-A sample data is also provided [here]() 
+A sample data is also provided [here](https://drive.google.com/drive/folders/1O1MdVK4Gr579nCj6p3TmEg4XyD-dIKWu?usp=sharing) 
