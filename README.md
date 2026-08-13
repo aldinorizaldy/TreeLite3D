@@ -50,10 +50,10 @@ Download from [here](https://drive.google.com/drive/folders/12IYq9gx-p1BQntIBxKy
 A sample data is also provided [here](https://drive.google.com/drive/folders/1O1MdVK4Gr579nCj6p3TmEg4XyD-dIKWu?usp=sharing). Put it in this directory: `data/trees_UNIFIED/test`
 
 Instance and semantic segmentation results of a sample data:
-
-<img width="50%" height="50%" alt="instance_result" src="https://github.com/user-attachments/assets/55a8cf99-1e27-4c15-b548-e707c43b4189" />
-<img width="50%" height="50%" alt="semantic_result" src="https://github.com/user-attachments/assets/bdea1113-5a2f-4384-abc7-1b8142076449" />
-
+<p align="center">
+  <img width="50%" height="50%" alt="instance_result" src="https://github.com/user-attachments/assets/55a8cf99-1e27-4c15-b548-e707c43b4189" />
+  <img width="50%" height="50%" alt="semantic_result" src="https://github.com/user-attachments/assets/bdea1113-5a2f-4384-abc7-1b8142076449" />
+</p>
 
 Custom data: Simply prepare your data similar to the sample data
 
