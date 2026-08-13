@@ -57,11 +57,11 @@ Instance and semantic segmentation results of a sample data:
 
 Custom data: Simply prepare your data similar to the sample data
 
--- 
+--- 
 ## Installation
 🔧 Docker installation is recommended for a clean installation. TreeLite3D is built using Pointcept 1.5.0. Install Pointcept 1.5.0 using docker from [here](https://hub.docker.com/layers/pointcept/pointcept/v1.5.0-pytorch1.11.0-cuda11.3-cudnn8-devel/images/sha256-8bdaf256670ec7e2f1a3472769ca9c97a1cb2b099f632ec20bf6050c21feb823)
 
---
+---
 ## Inference and Training (if necessary)
 Inference is straightforward:
 
