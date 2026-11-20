@@ -59,6 +59,14 @@ Custom data: Simply prepare your data similar to the sample data
 
 A pretrained MSC mode, without any fine-tuning, is provided [here](https://drive.google.com/drive/folders/164723sw-QgggkFpkngogBGsm7pfKCXB3?usp=sharing).
 
+### Species Classification
+A pretrained 2-class (broadleaf/conifer) species classification model (config + weight) is provided [here](https://drive.google.com/drive/folders/17Ne2MgbufRIk_cQYdM5AuRbnBU8T97NH?usp=sharing). Put `model_last.pth` in `exp/forspecies/cls-spunet-v1m1-0-base_2class/model/`.
+
+Run inference with:
+```
+sh scripts/test.sh -g 1 -p python -d forspecies -c cls-spunet-v1m1-0-base_2class -n cls-spunet-v1m1-0-base_2class -w model_last
+```
+
 --- 
 ## Installation
 🔧 Docker installation is recommended for a clean installation. TreeLite3D is built using Pointcept 1.5.0. Install Pointcept 1.5.0 using docker from [here](https://hub.docker.com/layers/pointcept/pointcept/v1.5.0-pytorch1.11.0-cuda11.3-cudnn8-devel/images/sha256-8bdaf256670ec7e2f1a3472769ca9c97a1cb2b099f632ec20bf6050c21feb823)
