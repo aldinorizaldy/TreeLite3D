@@ -20,6 +20,7 @@ from .trees import TreesDataset
 # object
 from .modelnet import ModelNetDataset
 from .shapenet_part import ShapeNetPartDataset
+from .forspecies import ForSpeciesDataset
 
 # dataloader
 from .dataloader import MultiDatasetDataloader
